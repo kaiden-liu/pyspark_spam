@@ -1,44 +1,26 @@
-# CS631_Project
+# PySpark Word Embedding and NLP Algorithms
 
-## Code
-See file https://git.uwaterloo.ca/y326zhen/cs631_project/-/blob/d59746a6b76f119b1958cbbf93bd6e60e3775f54/CS631_Project.ipynb
+## Abstract
 
-## Overleaf links
-https://www.overleaf.com/1675258949zpqvshwxrcsm (Edit)
+Large amounts of data are being generated every day, posing challenges in terms of time and computational infrastructure. This research paper focuses on implementing various word embedding methods and NLP algorithms from scratch using PySpark, a Python API for Apache Spark. The project aims to demonstrate the feasibility of processing big data efficiently and achieving high accuracy in text classification tasks.
 
-https://www.overleaf.com/read/jpyxtycbsvhz (View)
+## Introduction
 
-## Report structure
+With the advent of big data, addressing data processing challenges requires robust computational infrastructure. MapReduce was initially proposed as a solution, but its limitations for iterative and interactive tasks led to the development of Apache Spark. Spark is a cluster computing platform that provides faster processing speed and generality for handling a wide range of tasks. This project primarily utilizes Spark Core and the resilient distributed datasets (RDDs) programming abstraction for parallel computations and NLP algorithms implementation.
 
-Introduction
-- spark 
-	- RDD (parallel computing)
-- project overview
-- dataset
-	- overview
-	- source 
+## Project Overview
 
-Methods
-- Word embedding method
-	- Bag of words(Word Counts)
-	- TF-IDF
-	
-- Model
-	- KNN
-		- formula
-		- citations
-		- related works (similar used in previous papers.)
-	- Naive Bayes
-		- formula
-		- citations
-		- related works (similar used in previous papers.)
+The goal of this research paper is to implement various word embedding methods and NLP algorithms using PySpark. The SMS spam dataset is employed for demonstration purposes, showcasing an outstanding accuracy of 98.57% on Naive Bayes models with TF-IDF embedding methods. The project's scalability is emphasized, with the ability to handle larger SMS datasets by leveraging Spark's parallel processing capabilities.
 
-Results
-- KNN and Naive Bayes model test accuracies
+## Dataset and Methodology
 
-Discussion
-- Naive Bayes future works
-- K-NN model limitations
+The SMS Spam Collection dataset, obtained from multiple sources, comprises labeled "ham" and "spam" messages. The methodology involves utilizing PySpark's RDDs programming abstraction to perform parallel computations and implementing NLP algorithms from scratch. The text classification task is performed using the Naive Bayes model with Bag of Words and TF-IDF embedding methods.
 
-Conclusion
+## Conclusion
+
+In conclusion, this research paper demonstrates the feasibility of processing big data efficiently using PySpark. The implemented word embedding methods and NLP algorithms achieve remarkable accuracy on the SMS spam dataset. The scalability of the project allows for handling larger datasets with ease, showcasing the effectiveness of PySpark for text classification tasks.
+
+## References
+
+The research paper references relevant sources and publications on Spark, NLP, and the SMS spam dataset for further exploration.
 
